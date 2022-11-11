@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de nomina</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="Estilos/style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body background="Imagenes/planet.jpg"> 
+        <div class="arriba">
+        <center>
+        <ul class="menu">
+        <h1 class="fat">Registro de nomina</h1>
+        <li><a href="index.html">Registro de usuario</a></li>
+      </ul>
+     </center>
+</div>
+
+<center>
+<br>
+<br>
+<br>
+ <div class="registro"> 
+    <fieldset class="fieldset">
+   <div class="inicio">
+    <h1>Registro de nomina</h1></div>
+    
+    
+   
+    <form action="">
+          
+<br>
+        <label for="firstname">Nombres: </label><br>
+        <input type="text" name="firstname" id="firstname" autofocus required pattern="[A-Za-z]{2,40}" placeholder="Ingrese su nombre">
+
+        <br>
+
+        <label for="lastname">Apellidos: </label><br>
+        <input type="text" name="lastname" id="lastname"
+        autofocus required pattern="[A-Za-z ]{2,40}" placeholder="Ingrese su apellido.">
+
+
+        <br>      
+        <label for="direccion">Dias trabajados: </label><br>
+        <input type="number" name="direccion" id="direccion"
+        autofocus required placeholder="Ingrese numero de dias trabajados">
+        
+        <br>
+ 
+        <label for="id">ID de empleado: </label><br>
+        <input type="number" name="id" id="id"
+        autofocus required max="10000000000" placeholder="Ingrese el id del empleado">
+
+        <br>
+
+        <label for="salario">Salario: </label><br>
+        <input type="number" name="salario" id="salario"
+        autofocus required pattern="[0-9-] {8}" placeholder="Ingrese du fecha de nacimento ejemplo 0000-00-00">
+
+
+
+
+        <div class="boton">
+        
+          <br><br><input type="submit" value="Enviar"></div>
+       
+          <br>
+        
+        <input type="reset" value="Borrar formulario" />
+
+
+
+    </form>
+</fieldset>
+</center>
+</div>
+</div>
+
+</body>
+</html>

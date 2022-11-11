@@ -1,0 +1,95 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+html, body {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+.registro{ 
+  text-align: center;
+  background-color: #96dbee;
+  width: 150%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  font-size: 140%;
+ 
+  
+}
+
+.arriba{
+  size: 20px;
+  font-size: 120%;
+  background-size: auto;
+
+}
+
+
+.botones{
+  width: 100%;
+
+
+  
+}
+
+* {
+  user-select: none;
+}
+*::selection {
+  background: none;
+}
+*::-moz-selection {
+  background: none;
+}
+
+
+
+
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+.menu{
+  list-style: none;
+  padding: 0;
+  background-color: #0E0E0E;
+  max-width: 1000%;
+  margin: auto;
+  text-align: right;
+      
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 40px;
+  display: block;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+.menu li a:hover{
+  background: red;
+}
+.fat{
+  float: left;
+  color: white;
+}
+
+
+.fieldset{
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+  
+  
+}
