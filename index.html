@@ -6,11 +6,6 @@
     <title>Registro de usuario</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link href="Estilos/style.css" rel="stylesheet" type="text/css">
-        <body>
-                
-        </body>
-
-
 </head>
 <body background="Imagenes/planet.jpg"> 
         <div class="arriba">
@@ -50,7 +45,7 @@
         
         <label for="email">Email: </label><br>
         <input type="email" name="email" id="email" size="40%"
-        autofocus required pattern="{1, 100}" placeholder="nombre@dominio.com">
+        autofocus required maxlength="100" placeholder="nombre@dominio.com">
 
         <br>
 
@@ -68,19 +63,19 @@
         <br>      
         <label for="direccion">Direccion: </label><br>
         <input type="text" name="direccion" id="direccion" size="40%"
-        autofocus required pattern="{0, 50}" placeholder="Ingrese su direccion">
+         required maxlength="50" placeholder="Ingrese su direccion">
         
         <br>
  
         <label for="Telefono">Telefono: </label><br>
         <input type="number" name="Telefono" id="Telefono" size="40%"
-        autofocus required pattern="[0-9]{1,10}" placeholder="Ingrese su numero de Telefono">
+        required pattern="[0-9]{1,10}" placeholder="Ingrese su numero de Telefono">
 
         <br>
 
         <label for="nacimiento">Fecha de nacimiento: </label><br>
         <input type="date" name="nacimiento" id="nacimiento" size="40%"
-        autofocus required pattern="[0000-00-00] {8}" placeholder="Ingrese du fecha de nacimento ejemplo 0000-00-00">
+         required placeholder="Ingrese du fecha de nacimento ejemplo 0000-00-00">
 
       
       
@@ -91,8 +86,6 @@
         <input type="radio" id="aceptar" name="fav_language" value="aceptar" required>
           
           <label for="aceptar">Aceptar terminos y condiciones</label>
-        
-        
         
           
         <br><br>
