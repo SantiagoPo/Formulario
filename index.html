@@ -1,108 +1,123 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de usuario</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-    <link href="Estilos/style.css" rel="stylesheet" type="text/css">
-</head>
-<body background="Imagenes/planet.jpg"> 
-        <div class="arriba">
-        <center>
-        <ul class="menu">
-        <h1 class="fat">Registro de usuario</h1>
-        <li><a href="nomina.html">Nomina</a></li>
-      </ul>
-     </center>
-</div>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de usuario</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link href="Estilos/style.css" rel="stylesheet" type="text/css">
 
-<center>
-<br>
-<br>
-<br>
- <div class="registro"> 
- <fieldset class="fieldset">   
-   <div class="inicio">
-    <h1>Registro</h1></div>
-    
-   
-   
-    <form action="">
-          
-<br>
-        <label for="firstname">Nombres: </label><br>
-        <input type="text" name="firstname" id="firstname" size="40%"
-        autofocus required pattern="[A-Za-z ]{1, 40}" placeholder="Ingrese su nombre" >
-
-        <br>
-
-        <label for="lastname">Apellidos: </label><br>
-        <input type="text" name="lastname" id="lastname" size="40%"
-        autofocus required pattern="[A-Za-z ]{2, 40}" placeholder="Ingrese su apellido.">
-
-        <br>
-        
-        <label for="email">Email: </label><br>
-        <input type="email" name="email" id="email" size="40%"
-        autofocus required maxlength="100" placeholder="nombre@dominio.com">
-
-        <br>
-
-        <label for="password">Contraseña: </label><br>
-        <input type="password" name="password" id="password" size="40%"
-        required pattern="^(?=.*\d[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$"  placeholder="Ingrese su password">
-
-        <br>
-
-        <label for="password">Confirmar contraseña: </label><br>
-        <input type="password" name="password" id="password" size="40%"
-        required pattern="^(?=.*\d[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$" placeholder="Ingrese su password">
-        
-
-        <br>      
-        <label for="direccion">Direccion: </label><br>
-        <input type="text" name="direccion" id="direccion" size="40%"
-         required maxlength="50" placeholder="Ingrese su direccion">
-        
-        <br>
- 
-        <label for="Telefono">Telefono: </label><br>
-        <input type="number" name="Telefono" id="Telefono" size="40%"
-        required pattern="[0-9]{1,10}" placeholder="Ingrese su numero de Telefono">
-
-        <br>
-
-        <label for="nacimiento">Fecha de nacimiento: </label><br>
-        <input type="date" name="nacimiento" id="nacimiento" size="40%"
-         required placeholder="Ingrese du fecha de nacimento ejemplo 0000-00-00">
-
-      
-      
-      <div9 class="botones">
-        <div class="boton">
-        
-        <br>
-        <input type="radio" id="aceptar" name="fav_language" value="aceptar" required>
-          
-          <label for="aceptar">Aceptar terminos y condiciones</label>
-        
-          
-        <br><br>
-          <input type="submit" value="Enviar"></div>
-        <br>
-       <div class="boton">
-         <br>
-        <input type="reset" value="Borrar formulario" />
-      </div> 
-</div9>
-
-    </form>
-   <br>
-  </fieldset>
-</center>
-</div>
-</div>
+<body>
 
 </body>
+
+
+</head>
+
+<body background="Imagenes/planet.jpg">
+  <div2 class="prueba">
+    <div class="arriba">
+      <center>
+        <ul class="menu">
+          <h1 class="fat">Registro de usuario</h1>
+  </div2>
+  <li><a href="nomina.html">Nomina</a></li>
+  </ul>
+  </center>
+  </div>
+
+  <center>
+    <br>
+    <br>
+    <br>
+    <div class="registro">
+      <fieldset class="fieldset">
+        <div class="inicio">
+          <h1>Registro</h1>
+        </div>
+
+
+
+        <form action="">
+
+          <br>
+          <label for="firstname">Nombres: </label><br>
+          <input type="text" name="firstname" id="firstname" autofocus required pattern="[A-Za-z]{1, 40}"
+            placeholder="Ingrese su nombre">
+
+          <br>
+
+          <label for="lastname">Apellidos: </label><br>
+          <input type="text" name="lastname" id="lastname" size="40%" autofocus required pattern="[A-Za-z ]{2, 40}"
+            placeholder="Ingrese su apellido">
+
+          <br>
+
+          <label for="email">Email: </label><br>
+          <input type="email" name="email" id="email" size="40%" autofocus required pattern="{1, 100}"
+            placeholder="nombre@dominio.com">
+
+          <br>
+
+          <label for="password">Contraseña: </label><br>
+          <input type="password" name="password" id="password" size="40%" required pattern="[A-Za-z 0-9]{0,20}"
+            placeholder="Ingrese su password">
+
+          <br>
+
+          <label for="password">Confirmar contraseña: </label><br>
+          <input type="password" name="password" id="password" size="40%" required pattern="[A-Za-z 0-9]{0,20}"
+            placeholder="Ingrese su password">
+
+
+          <br>
+          <label for="direccion">Direccion: </label><br>
+          <input type="text" name="direccion" id="direccion" size="40%" autofocus required pattern="{0, 50}"
+            placeholder="Ingrese su direccion">
+
+          <br>
+
+          <label for="Telefono">Telefono: </label><br>
+          <input type="number" name="Telefono" id="Telefono" size="40%" autofocus required pattern="[0-9]{1,10}"
+            placeholder="Ingrese su numero de Telefono">
+
+          <br>
+
+          <label for="nacimiento">Fecha de nacimiento: </label><br>
+          <input type="date" name="nacimiento" id="nacimiento" autofocus required pattern="[0000-00-00] {8}"
+            placeholder="Ingrese du fecha de nacimento ejemplo 0000-00-00">
+
+
+
+          <div9 class="botones">
+            <div class="boton">
+
+              <br>
+              <div class="termino"><input type="radio" id="aceptar" name="fav_language" value="aceptar" required>Aceptar
+                terminos y condiciones </div>
+
+
+
+<br><br>
+<div class="enviar" ><input type="submit" value="Enviar"></div>
+              <br>
+              
+            </div>
+            <br>
+            <div class="boton">
+            
+              <input type="reset" value="Borrar formulario" />
+            </div>
+          </div9>
+
+        </form>
+     <br>
+      </fieldset>
+  </center>
+  </div>
+  </div>
+
+</body>
+
 </html>

@@ -1,41 +1,6 @@
-html, body {
-  height: 100%;
-  width: 100%;
+*{
+  margin: 0;
 }
-
-
-html, body {
-  font-family: sans-serif;
-  height: 100%;
-  width: 100%;
-}
-.registro{ 
-  text-align: center;
-  background-color: #96dbee;
-  width: 150%;
-  max-width: 400px;
-  border-radius: 1em;
-  padding: 3.5em 1.5em;
-  font-size: 140%;
- 
-  
-}
-
-.arriba{
-  size: 20px;
-  font-size: 120%;
-  background-size: auto;
-
-}
-
-
-.botones{
-  width: 100%;
-
-
-  
-}
-
 * {
   user-select: none;
 }
@@ -46,16 +11,43 @@ html, body {
   background: none;
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
 
+}
 
+.registro{ 
+  text-align: center;
+  background-color: #96dbeebb;
+  width: 150%;
+  max-width: 400px;
+  border-radius: 1em;
+  padding: 3.5em 1.5em;
+  font-size: 140%;
+  opacity: 0.8;
+ 
+  
+}
+.termino{
+color: #0E0E0E;
 
+}
+.arriba{
+  size: 20px;
+  font-size: 120%;
+  background-size: auto;
+  filter: alpha(opacity=80);        
+  zoom: 1;
+
+}
 
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-
 
 
 .menu{
@@ -70,7 +62,7 @@ body {
 .menu li a{
   text-decoration: none;
   color: white;
-  padding: 40px;
+  padding: 25px;
   display: block;
 }
 .menu li{
@@ -83,8 +75,8 @@ body {
 .fat{
   float: left;
   color: white;
+  margin: 10px;
 }
-
 
 .fieldset{
   border-width: 4px;
@@ -93,3 +85,38 @@ body {
   
   
 }
+
+.prueba{
+  text-align: center;
+}
+
+.registro input{
+  border: solid 1px black;
+  border-radius: 3px;
+  /* width: 100%; */
+  padding: 5px;
+
+}
+.registro input::placeholder{
+  text-align: center;
+}
+
+
+.registro input:hover{
+  color: #1883ba;
+  background-color: rgb(164, 224, 164);
+}
+
+
+.registro input{
+  text-decoration: none;
+  padding: 6px;
+  font-weight: 300;
+  font-size: 15px;
+  background-color: rgb(193, 213, 216);
+  border-radius: 6px;
+  border: 1px solid #0016b0;
+  color: #0E0E0E;
+}
+
+  
